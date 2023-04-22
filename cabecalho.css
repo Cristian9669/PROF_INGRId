@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+}
+header{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom:1px solid  rgb(200,200,200);
+}
+.cabecalho {
+    font-size: 1em;
+    width: 100vw;
+    height: 7vw;
+    padding: 1%;
+
+    
+}
+.logo  {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: wrap;
+margin: 0% 5%;
+
+
+}
+.logo img { max-width: 90px; max-height: 80px;}
+.logo2 {
+    font-size: 0.7em;
+    color: #0011ff;
+    font-weight: normal;
+    font-family: "poppins";
+
+}
+
+.menu {
+margin: 0%;
+
+
+    }
+.menu a{
+    color: #124265;
+    font-size:18px;
+    text-decoration: none;
+    margin-right: 20px;
+    transition:0.4s; 
+
+}
+
+.menu a:hover{
+
+    color: white;
+    background-color: #007bff;
+    padding: 6px 10px;
+    border-radius: 8px;
+
+    
+  }
+  
+.btn-menu {
+    background-color: #007bff;
+    display: inline-block;
+    padding: 6px 10px;
+    color:white;
+    border-radius: 8px;
+}
+.menu .btn-menu:hover{
+    background-color:  #124265;
+    color: white;
+    
+  }
+
